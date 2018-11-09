@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <meta name="keywords" content="кофе, сорта кофе, история кофе,купить кофе" />
+        <meta name="description" content="сайт о кофе, информационный портал, купить кофе, узнать о кофе,задать вопрос" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>Снрвисы сайта. Coffeelike </title>
+        <link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css" />
+        <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="css/forma_css.css" type="text/css">
+</head>
+<body>
+     <div id="bg">
+         <div id="outer">
+             <div id="header">
+                 <div id="logo">
+                     <h1>
+                         <a href="#" title="Сайт о кофе">Coffeelike</a>
+                        </h1>
+                    </div> 
+                    <div id="nav">
+                        <ul>
+                            <li class="first active">  <a href="home.html" title="Перейти на главную">Главная</a> </li>
+                            <li> <a href="history.html" title="История">История</a></li>
+                            <li> <a href="sorta.html" title="Все о сортах кофе">Сорта кофе</a></li>
+                           <li> <a href="services.html" title="Сервисы сайта">Сервисы сайта</a></li>
+                            </ul>						
+                        </div>
+                    </div>
+                    <div id="main">
+                        <div id="sidebar">
+                            <h4 id="Bak"> «Ради кофе можно пойти на всё. Даже на работу.»Бил Гейтс</h4>
+                            <ul class="linkedList">
+                                <li> <a href="cupping.html" title="Что такое каппинг">Каппинг?</a></li>
+                                <li><p>Кофе с пряностми</p><a href="http://povar.me/napitki/coffee/kofe-s-pryanostyami/" title="Как приготовить кофе с пряностями" target=A> <img src="img/spryanostyami.jpg" alt="Как приготовить кофе с пряностями" title="Кофе с пряностями"></a></li>
+                                <li><p>Kopi Luwak</p> <a href="http://www.life-in-travels.ru/kopi-luwak/"  title="Самый дорогой кофе" target=B> <img src="img/cups.jpg" alt="Самый дорогой кофе" title="Kopi Luwak"> </a></li>                      
+                            </ul>
+                        </div>
+                        <div id="content">
+                            <div class="top">
+                                <div id="mesta">
+                                    <a href="https://www.relax.by/cat/ent/coffee/" title="Где можно выпить кофе в Минске" target=E><svg width=100% xmlns='http://www.w3.org/2000/svg'>
+                                        <rect  x=20 y=40 width=80% height=40% stroke='#26734d' fill='#99ffbb' />       
+                                        <text x=30 y=75  fill='#26734d'textLength=108>Кофейни Минска</text>
+                                        </svg></a>
+                                </div>                    
+                                <div id="market">
+                                    <a href="https://www.relax.by/cat/shop/product/minsk/chaj/" title="Где можно купить кофе в Минске" target=F>            
+                                        <svg  width=100% xmlns='http://www.w3.org/2000/svg'>                  
+                                            <rect x=20 y=40 width=80% height=40% stroke='#26734d' fill='#99ffbb'/>   
+                                            <text x=30 y=75 fill='#26734d' textLength=108>Где купить кофе</text>       
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="down">                   
+                                <div id="box4">                 
+                                    <img id=IPict src="img/polza1.jpg">
+                                </div>                          
+                                <div id="box5">               
+                                    <input class="green" type=button value='КАКАЯ?' onclick="changePicture()"> 
+                                </div>                       
+                            </div>
+                            <div class="forma">               
+                                <form name='question'  method=get action="http://fe.it-academy.by/TestForm.php">
+                                    <div>Задать свой вопрос:</div><br>                 
+                                    <div class="name">        
+                                        <label for='N'> Введите ваше имя </label>             
+                                        <div class="Tx">   
+                                            <input id="N" type="text" name="your_name">
+                                        </div>
+                                        <label for='E'> Ваш e-mail</label>
+                                        <div class="Tx">  
+                                            <input id="E" type="text" name="your_mailbox"></div>
+                                        <label for='Q'> Тема вопроса:</label>         
+                                        <div class="Tx"> <select id="Q"  name="questionkind">
+                                            <option value="1" selected>Общие вопросы </option>            
+                                            <option value="2" >Виды кофе </option>    
+                                            <option value="3">Рецепты приготовления </option><option value="4" >Советы </option>
+                                            </select>
+                                        </div>
+                                    </div>    
+                                    <div >
+                                        <label for='S'> Текст статьи:</label><br>
+                                        <textarea name="article"></textarea><br><br>
+                                        <input class="green" type="submit" value="Отправить">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer">
+                    <p>&copy; Cайт о кофе</p>
+                    <div class="disc"></div>
+                    <div class="tel"></div>
+                    <div class="mail"> </div>
+                    <div class="service"> </div>
+                </div>
+                </div>	
+                <script src="sout.js"></script>
+    
+</body>
+</html>

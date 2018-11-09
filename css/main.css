@@ -1,0 +1,394 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 12pt;
+	line-height: 1.75em;
+	font-family: Georgia, serif;
+	background: #ad8667 url('/css/img1/bg.jpg');
+	color: #ebe1d9;
+        width: 100%;
+       
+}
+
+
+body div#bg {
+	background: url('/css/img1/shadow_.png') top left repeat-x;
+        width: 100%;
+}
+
+#outer {
+	margin: 0;
+        width: 100%;
+}
+#footer {	
+	width: 1100px;
+	color: #e1d2c7;
+        text-align: center;
+        width: 100%;
+}
+
+#header {
+	 padding: 40px 0;
+         width: 100%;
+}
+
+
+ #logo{
+        padding: 10px 0 10px 20px;
+        
+}
+
+#logo a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#nav {
+        width: 100%;
+}
+
+
+#nav ul {
+	list-style: none;
+}
+
+#nav li {
+	margin: 0 1em 0 1em;
+        }
+
+#nav ul li {
+	float: left;
+ }
+#nav a {
+	text-decoration: none;
+	text-transform: lowercase;
+	color: #f4eeea;
+	text-shadow: 0 1px 1px #32251B;
+	font-size: 1.2em;
+}
+#nav a:hover{
+        color: #ffffcc;
+        font-size: 1.4em;
+}
+
+#main {
+	
+	padding: 0;
+	width: 1180px;
+	color: #5e5e5e;
+         width: 100%;
+}       
+#sidebar {
+	width: 25%;
+	float: left;
+	padding: 2%;
+	background: #32251b;
+	color: #e1d2c7;
+        margin-right: 1%;
+        margin-left: 1%;
+}
+
+#sidebar h4{
+   text-align: center;
+   font-style: italic;
+   font-family: Arial, cursive;
+}
+ 
+ @keyframes Animation
+{
+    from { color: #e1d2c7; }
+    to {  color: #4ddbff; font-size: 14pt;}
+}
+
+#Bak
+{
+    padding: 10px;
+    animation: Animation 5s infinite;
+}
+
+
+ 
+.linkedList img {
+   width: 100%;
+   transition-property: transform;
+    transition-duration: 1s;
+   border-radius: 50%;
+}
+
+.linkedList img:hover {
+transform: scale(1.1);
+}
+
+#content {
+	width: 50%;
+	margin: 0 0 0 35%;
+	padding: 40px;
+	background: #fff;
+        box-shadow: 0 0 20px brown inset;
+        box-shadow: 0 0 30px grey inset;
+}
+#box1{
+        border-bottom: solid #32251b 1px;
+}
+
+	
+.left {
+        float: left;
+	margin: 5px 20px 1px 0;
+}
+.down{
+       height: 50%;
+}
+.top img{
+        width: 99%;
+        
+}
+.down img{
+       width: 99%;
+       
+}
+#box2 {
+        float: left;
+        width: 50%;
+}
+
+#box3{
+                margin-left: 50%;
+}
+
+
+#box4 {
+        
+        width: 99%;
+}
+
+
+                
+                
+
+/* страница история*/
+
+.han img {
+   transform: perspective(800px) rotate3d(20, 90, 0, 40deg);
+   width: 85%;
+}
+
+.han img:hover {
+  transform: perspective(900px) rotate3d(40, 70, 0, 30deg);
+  width: 85%;
+}
+
+/*Оформление страницы Сорта Кофе*/
+
+div#content .fl_image {
+         float:right;
+         margin:0 0 10px 10px;
+}  
+.linkedList, .region ul{
+         list-style-type: none;
+ }
+.linkedList a{
+         color: #e1d2c7;
+}
+.region a {
+         font-size: larger;
+         color: #ccd9ff;
+}
+
+.linkedList, .region li{
+         margin: 10px 0 10px 0;
+         }
+
+#content dl dd {
+         padding-bottom: 14px;
+         text-align: justify;
+}
+
+.li_dec_sorta{
+        margin: -10px 0 0 50px;
+ }
+.li_dec_sorta ul{
+        list-style:disc;
+}
+.li_dec_sorta ul li{
+        
+        padding:0;
+}
+/*оформление страницы сервисы*/
+
+#mesta{
+        float: left;
+        width: 50%;
+}
+#market{
+                margin-left: 50%;
+}
+.green{
+           background-color: #99ffbb;
+           transition-duration: 2s}
+
+.green:hover {
+           background-color: #26734d;
+}
+          rect {
+           transition-duration: 3s;
+                  }
+rect:hover {fill: #39ac73;
+                  
+}
+
+/*иконки, спрайты*/
+
+.disc{
+          background-image: url('/css/img1/ikonki_.png');
+          background-repeat: no-repeat;
+          background-position: -147px -3px;
+          width: 30px; height: 30px;
+          display: inline-block;
+}
+.tel{
+          background-image: url('/css/img1/ikonki_.png');
+          background-repeat: no-repeat;
+          background-position: -471px -38px;
+           width: 30px; height: 30px;
+            display: inline-block;                                                    
+}
+.mail{
+            background-image: url('/css/img1/ikonki_.png');
+            background-repeat: no-repeat;
+            background-position: -327px -291px;
+            width: 30px; height: 30px;
+            display: inline-block;                                                    
+}
+.service{
+            background-image: url('/css/img1/ikonki_.png');
+            background-repeat: no-repeat;
+            background-position: -399px -363px;
+            width: 30px; height: 30px;
+              display: inline-block;         
+                                           
+}
+ 
+
+ /*страница со статьей о влиянии кофе*/
+
+#read{
+        margin: 5%;
+        background-color: #ffffff;
+        color: #0d0d0d;
+        padding: 2%;
+        box-shadow: 0 0 20px brown inset;
+        box-shadow: 0 0 30px grey inset;
+}     
+#read h3{
+        text-align: center;
+}
+/*страница каппинг*/
+
+#read img{
+        width: 100%;
+}
+
+
+
+
+@media only all and (max-width: 600px) {
+
+ body{
+        width: auto;
+}
+
+#bg{
+        width: auto;
+}
+#outer{
+       position: static;
+       width: 100%;
+       padding: 0;
+}
+#header{
+       position: static;
+       display: block;
+       height: auto;
+}
+
+#logo{
+      position: static;
+      height: auto;
+}
+#nav{
+      position: static;
+      height: auto;
+}
+#nav ul li{
+  float: none;
+}
+#main{
+     position: static;
+     width: 100%;
+}
+#footer{
+    position: static;
+    width: auto;
+}
+
+#sidebar{
+   float: none;
+   width: 98%;
+   padding: 0;
+   margin-left: 1%;
+   margin-right: 1%;
+}
+
+#sidebar li{
+    margin: 5px 20px;
+}
+
+
+#content{
+    margin: 0;
+    width: 98%;
+    padding:  0 0 5px 0;
+    margin-right: 1%;
+    margin-left: 1%;
+
+}
+
+.left{
+   
+    width: 100%;
+}
+#box1{
+    margin: 5px;
+}
+#box1 h2{
+     padding: 20px 5px 20px 5px;
+     text-align: center;
+}
+#box2{
+   float: none;
+   width: 100%;
+}
+#box3{
+margin-left: 0;
+}
+#box4{
+   float: none;
+   width: 100%;
+}
+#box5{
+margin-left: 0%;
+}
+.top{
+border-bottom: solid #32251b 1px;
+margin: 5px;
+}
+.down{
+border-bottom: solid #32251b 1px;
+margin: 5px 5px 5px 5px;
+}
+}
+
