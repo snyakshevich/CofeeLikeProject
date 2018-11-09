@@ -7,7 +7,7 @@ body {
 	font-size: 12pt;
 	line-height: 1.75em;
 	font-family: Georgia, serif;
-	background: #ad8667 url('/css/img1/bg.jpg');
+	background: #ad8667 url(/css/img1/bg.jpg);
 	color: #ebe1d9;
         width: 100%;
        
@@ -15,7 +15,7 @@ body {
 
 
 body div#bg {
-	background: url('/css/img1/shadow_.png') top left repeat-x;
+	background: url(/css/img1/shadow_.png) top left repeat-x;
         width: 100%;
 }
 
@@ -243,28 +243,28 @@ rect:hover {fill: #39ac73;
 /*иконки, спрайты*/
 
 .disc{
-          background-image: url('/css/img1/ikonki_.png');
+          background-image: url(/css/img1/ikonki_.png);
           background-repeat: no-repeat;
           background-position: -147px -3px;
           width: 30px; height: 30px;
           display: inline-block;
 }
 .tel{
-          background-image: url('/css/img1/ikonki_.png');
+          background-image: url(/css/img1/ikonki_.png);
           background-repeat: no-repeat;
           background-position: -471px -38px;
            width: 30px; height: 30px;
             display: inline-block;                                                    
 }
 .mail{
-            background-image: url('/css/img1/ikonki_.png');
+            background-image: url(/css/img1/ikonki_.png);
             background-repeat: no-repeat;
             background-position: -327px -291px;
             width: 30px; height: 30px;
             display: inline-block;                                                    
 }
 .service{
-            background-image: url('/css/img1/ikonki_.png');
+            background-image: url(/css/img1/ikonki_.png);
             background-repeat: no-repeat;
             background-position: -399px -363px;
             width: 30px; height: 30px;
